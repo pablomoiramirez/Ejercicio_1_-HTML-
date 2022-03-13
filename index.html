@@ -1,0 +1,131 @@
+<!-- shf + 1 nos autocompleta html5 -->
+<!-- ctrl - k | ctrl - c nos comenta  -->
+
+<!-- QUEDE EN EL MINUTO 54 -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Clase 3 - Cac Java Fullstack</title>
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    </head>
+    <body>
+        <!-- Cabeza, Cuerpo, Pie -->
+        <header>
+            <!-- Solo podemos poner una etiqueta h1 -->
+            <h1>Bienvenidos</h1>
+        </header>
+        <main>
+            <h2>Soy un subtitulo</h2>
+            <!-- lorem*{número de cantidad de repeticiones} -->
+            <p>Lorem ipsuuuuuuuuuuuuuuuuuuuuuuuum, dolor sit amet consectetur adipisicing elit. Dicta, odio corrupti! Laborum omnis nulla voluptates ea quasi voluptatibus veritatis tenetur pariatur! Sit beatae, ratione fugiat harum exercitationem minus labore est?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus tempora, error voluptas facere autem molestiae sint pariatur fugit veritatis perferendis. Voluptatibus mollitia cumque corrupti labore illo, quam quos dolores sequi.
+            Eligendi soluta veniam pariatur illum unde quae harum beatae ex. Laboriosam suscipit explicabo cumque, molestiae quae illum molestias dignissimos qui dolorum neque ipsa quo, autem distinctio voluptates quam ipsum fuga.</p>
+    
+            <!-- LISTAS-->
+            <!-- <ul>: Lista desordenada (Sin número) -->
+            <!-- <ol>: Lista ordenada -->
+            <!-- <li>: Representa un elemento de la lista y su padre siempre tiene que ser una etiqueta ol o ul -->
+    
+            <!-- Lista desordenada -->
+            <ul>
+                <!-- li*3 -->
+                <li>Lunes</li>
+                <li>Martes</li>
+                <li>Miércoles</li>
+            </ul>
+            <!-- Lista ordenada -->
+            <ol>
+                    <li>Enero</li> 
+                    <li>Febrero</li>
+                    <li>Marzo</li>
+            </ol>                
+            
+            <table border="1"> 
+                <tr> 
+                    <!-- th es un titulo / encabezado de una columna -->
+                    <th>Día</th> 
+                    <th>Mes</th>
+                </tr>
+                <tr>
+                    <td>10</td> 
+                    <td>Agosto</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>Septiembre</td>
+                </tr>
+            </table>
+    
+
+            <!-- border genera el volumen de borde -->
+            <table border="1"> 
+                <!-- tr = fila td = columna -->
+                <!-- rowspan combina filas -->
+                <!-- colspan combina columnas -->
+                <tr>
+                    <td rowspan="3">Zona Sur</td>
+                    <td>Avellaneda</td>
+                    <td>Lanús</td>
+                </tr>
+                <tr>
+                    <td colspan="3">Banfield</td>
+                </tr>
+                <tr>
+                    <td>Quilmes</td>
+                    <td>Berazategui</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Zona Oeste</td>
+                    <td>Morón</td>
+                    <td>Merlo</td>
+                </tr>
+                <tr>
+                    <td>Moreno</td>
+                    <td>Haedo</td>
+                </tr>
+            </table> 
+            
+            <!-- Agregamos contenido a la pagina -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ZFWNuddpSWw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+            <!-- MAPA -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55403.6969456888!2d-58.094270307880585!3d-29.785417186041215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945292f82aa21261%3A0x10119094b42b01e3!2zQ3VydXrDuiBDdWF0acOhLCBDb3JyaWVudGVz!5e0!3m2!1sen!2sar!4v1647120852973!5m2!1sen!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <br>
+            <!-- FORMULARIOS -->
+            <form action="#">
+
+                <!-- ctrl + space autocompleta y deja ver las variedades que tenemos -->
+                <!-- el name del input tiene que ser siempre igual al for del label -->
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" placeholder="Ingrese su nombre aquí" required>
+                <br>
+                <input type="email" placeholder="Ingrese su email aqui" required>
+                <input type="password" placeholder="Ingrese su contraseña" required>
+
+                <input type="submit" value="Enviar">
+
+            </form>
+        </main>
+        
+
+        <!-- Tema git
+        Primero es add.
+        Segundo git commit -a 
+        git push
+        -->
+
+
+        <footer>
+            <br>
+            &copy;2022 All rights Reserved
+        </footer>
+
+
+        
+
+    </body>
+</html>
+
